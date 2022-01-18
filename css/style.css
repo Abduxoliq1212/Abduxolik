@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../img/lamborghini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 10%;
+    animation: turn 3s infinite linear;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-link:hover {
+    background: orange;
+    transition: 0.5s;
+}
+
+.list {
+    list-style: none; 
+    
+}
+
+.link {
+    text-decoration: none;
+   
+}
